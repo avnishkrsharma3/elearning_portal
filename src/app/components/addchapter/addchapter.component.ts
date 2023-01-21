@@ -16,7 +16,6 @@ export class AddchapterComponent implements OnInit {
 
   chapter = new Chapter();
   coursenames : Observable<Course[]> | undefined;
-     
   constructor(private _router : Router, private _service : ProfessorService) {}  
     
   ngOnInit() {
